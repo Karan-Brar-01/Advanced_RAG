@@ -1,0 +1,8 @@
+groq>=0.8.0
+pinecone>=4.0.0
+neo4j>=5.21.0
+streamlit>=1.35.0
+sentence-transformers>=3.0.1
+pypdf2>=3.0.1
+python-dotenv>=1.0.1
+networkx>=3.2.1

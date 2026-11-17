@@ -1,5 +1,13 @@
 import os
+import sys
 import tempfile
+from pathlib import Path
+
+# Ensure the project directory is on sys.path regardless of execution root
+project_dir = Path(__file__).resolve().parent
+if str(project_dir) not in sys.path:
+    sys.path.insert(0, str(project_dir))
+
 import streamlit as st
 from config import Config
 from retrieval import HybridRetriever
