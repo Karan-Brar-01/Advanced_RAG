@@ -48,7 +48,7 @@ class Config:
     # -------------------------------------------------------------------------
     # Application Constants
     # -------------------------------------------------------------------------
-    LLM_MODEL = "llama-3.1-8b-instant"
+    LLM_MODEL = get_setting("LLM_MODEL", "qwen/qwen3.8-27b")
     EMBEDDING_MODEL_ID = "sentence-transformers/all-MiniLM-L6-v2"
     
     # Groq API limits - Free Tier
@@ -69,6 +69,7 @@ class Config:
         cls.NEO4J_URI = get_setting("NEO4J_URI") or cls.NEO4J_URI
         cls.NEO4J_USERNAME = get_setting("NEO4J_USERNAME") or cls.NEO4J_USERNAME
         cls.NEO4J_PASSWORD = get_setting("NEO4J_PASSWORD") or cls.NEO4J_PASSWORD
+        cls.LLM_MODEL = get_setting("LLM_MODEL", "qwen/qwen3.8-27b")
 
     @classmethod
     def get_groq_client(cls) -> Groq:
