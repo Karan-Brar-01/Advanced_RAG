@@ -76,3 +76,4 @@ NEO4J_PASSWORD=your_neo4j_password
 2. Select **Web Service** using Docker (the root `Dockerfile` is pre-configured).
 3. Set your environment variables in the provider dashboard (`GROQ_API_KEY`, `PINECONE_API_KEY`, etc.).
 4. The service will build and run on port `8501`.
+

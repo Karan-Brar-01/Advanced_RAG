@@ -6,3 +6,4 @@ sentence-transformers>=3.0.1
 pypdf2>=3.0.1
 python-dotenv>=1.0.1
 networkx>=3.2.1
+
