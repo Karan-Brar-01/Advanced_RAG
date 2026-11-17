@@ -1,6 +1,10 @@
 # Hybrid GraphRAG Engine
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://advancedrag-jraddd56cbfkrvge2ltwby.streamlit.app/)
+
 A Hybrid Graph-based Retrieval-Augmented Generation (GraphRAG) application combining semantic vector search (Pinecone), structural knowledge graphs (Neo4j), and high-speed LLM inference (Groq).
+
+🔗 **Live Demo**: [advancedrag-jraddd56cbfkrvge2ltwby.streamlit.app](https://advancedrag-jraddd56cbfkrvge2ltwby.streamlit.app/)
 
 ---
 
